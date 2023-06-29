@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+html {
+    font-size: 20px;
+}
+
+#login_ezen {
+    padding: 3.125rem 0;
+}
+#wrap{
+    width: 100%;
+    margin: 0 auto;   
+}
+header h1 {
+    width: 10.4166666667rem;
+    height: 3.0208333333rem;
+    margin: 0 auto 1.25rem auto;
+    background-image: url(../images/login/login-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 0;
+}
+header h1 img {
+    width: 100%;
+}
+#box {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 580px;
+    border: 0.0625rem solid #ccc;
+}
+#box .login_form {
+    padding: 1.825rem;
+}
+#box .login_form .login_title {
+    font-size: 1.4583333333rem;
+    color: #333;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+#box .login_form .login_title strong {
+    font-weight: 700;
+}
+#box .login_form .login_sub_text {
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 2.0833333333rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login_input {
+    margin-bottom: 1.0416666667rem;
+    position: relative;
+    transition: all 0.2s ease-out;
+}
+.login_input label {
+    color: #afb0b2;
+    font-size: 0.75rem;
+}
+.login_input label span {
+    content: " *";
+    color: #e86a54;
+}
+
+#floatingInput:focus,
+#floatingPassword:focus {
+    outline: 3px solid #006955;
+}
+
+#floatingInput,
+#floatingPassword {
+    width: 100%;
+    height: 3.125rem;
+    border: 1px solid #ccc;
+    border-radius: 1.875rem;
+    padding-left: 1.6rem;
+    /* padding: .25rem 1.6666666667rem; 이거 적용하면 망함 */
+}
+.remember_id {
+    padding: 0 1.25rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 16px;
+    border: none;
+    /* 체크되면 색상변경 */
+    accent-color: #006955;
+}
+input[type="checkbox"] + label {
+    font-size: 0.7916666667rem;
+    vertical-align: top;
+    font-weight: 700;
+}
+/* 아이디 비밀번호 위로 올라가는곳 위치조정 */
+.form-floating > label {
+    padding: 1rem 1.75rem;
+    top: 5px;
+}
+/* 로그인 버튼 */
+input[type="submit"] {
+    font-size: 0.8333333333rem;
+    font-weight: 700;
+    padding: 0.75rem 0;
+    border-radius: 1.875rem;
+    background: #006955;
+    color: #fff;
+    border: 1px solid #006955;
+}
+
+.member_sign_info {
+    margin-top: 2.0833333333rem;
+}
+.member_sign_info li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.member_sign_info span {
+    font-size: 0.7916666667rem;
+    font-weight: 700;
+}
+
+.member_sign_info .jojn_btn {
+    width: 6.25rem;
+    text-align: center;
+    font-size: 0.625rem;
+    padding: 0.375rem 0.8333333333rem;
+    background: #eee;
+    color: #666;
+    font-weight: 600;
+    border-radius: 1.875rem;
+    border: 1px solid #eee;
+    line-height: 1.42857143;
+}
+
+.member_sign_info li + li {
+    border-top: 0.0625rem solid #eee;
+    padding-top: 0.2083333333rem;
+    margin-top: 0.2083333333rem;
+}
+
+/* 푸터 */
+.copyright {
+    color: #666;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1.25rem;
+    font-size: 0.8333333333rem;
+    line-height: 1.35;
+}
+.copyright span {
+    color: #000;
+    font-weight: 700;
+}

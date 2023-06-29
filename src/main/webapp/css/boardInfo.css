@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+.boardInfo_cover .boardInfo_title_area {
+    padding: 80px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000;
+}
+.boardInfo_cover .boardInfo_title_area .boardInfo_title h2 {
+    font-size: 37px;
+    font-weight: 700;
+    margin: 5px 0 20px 0;
+    line-height: 1;
+    color: #34343d;
+}
+.boardInfo_cover .boardInfo_title_area .boardInfo_title p {
+    color: #34343d;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.boardInfo_cover .command_board .tab_menu {
+    display: flex;
+    margin: 30px 0;
+}
+.boardInfo_cover .command_board .tab_menu li:nth-child(2) {
+    margin: 0 10px;
+}
+
+.boardInfo_cover .command_board .tab_menu a{
+    display: block;
+    text-align: center;
+    width: 215px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #959595;
+    padding: 8px 0;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+/* 공지사항, 자유게시판, 건의사항 색상변경 */
+.boardInfo_cover .command_board .tab_menu li a{
+    background:#fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* 제목,날짜 내용 */
+.boardInfo_cover .view_box .header_wrap {
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 45px 10px 40px;
+    text-align: center;
+}
+.boardInfo_cover .view_box .header_wrap h4 {
+    font-family: 'Montserrat',SDGothic,sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+.boardInfo_cover .view_box .header_wrap span {
+    display: block;
+    margin-top: 10px;
+    color: #999;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.boardInfo_cover .view_box .vb_contents {
+    padding: 55px 0 110px 0;
+}
+.boardInfo_cover .view_box .vb_contents p {
+    font-size: 20px;
+    font-weight: 600;
+}
+/* 맨 아래 버튼 */
+.boardInfo_cover .boardInfo_btn_wrap {
+    border-top: 2px solid #e4e4e4;
+    padding: 50px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 이전페이지 다음페이지 */
+.boardInfo_cover .boardInfo_btn_wrap .btn_prev,
+.boardInfo_cover .boardInfo_btn_wrap .btn_next {
+    color: #333;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+.boardInfo_cover .boardInfo_btn_wrap .btn_prev img {
+    margin-right: 10px;
+}
+.boardInfo_cover .boardInfo_btn_wrap .btn_next img {
+    margin-left: 10px;
+}
+/* 이전페이지, 다음페이지 호버시 색상변경 */
+.boardInfo_cover .boardInfo_btn_wrap .btn_prev:hover,
+.boardInfo_cover .boardInfo_btn_wrap .btn_next:hover {
+    color: #006955;
+}
+
+/* 목록보기 버튼 */
+.boardInfo_cover .boardInfo_btn_wrap .btn_update,
+.boardInfo_cover .boardInfo_btn_wrap .btn_boardList,
+.boardInfo_cover .boardInfo_btn_wrap .btn_delete {
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+.boardInfo_cover .boardInfo_btn_wrap .btn_boardList{
+	background: #000;
+    color: #fff;
+}
+/* 수정, 삭제버튼 */
+.boardInfo_cover .boardInfo_btn_wrap .btn_update,
+.boardInfo_cover .boardInfo_btn_wrap .btn_delete {
+    background: #fff;
+    color: #000;
+}
+
+.boardInfo_cover .boardInfo_btn_wrap .btn_update i,
+.boardInfo_cover .boardInfo_btn_wrap .btn_boardList i,
+.boardInfo_cover .boardInfo_btn_wrap .btn_delete i {
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

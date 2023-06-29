@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+body{
+    width: 100%;
+}
+
+html {
+    font-size: 20px;
+}
+
+#login_ezen {
+    padding: 3.125rem 0;
+}
+header {
+	width: 90%;
+}
+
+header h1 {
+    width: 10.4166666667rem;
+    height: 3.0208333333rem;
+    margin: 0 auto 1.25rem auto;
+    background-image: url(../images/login/login-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 0;
+}
+header h1 img {
+    width: 100%;
+}
+#box {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 580px;
+    border: 0.0625rem solid #ccc;
+}
+#box .login_form {
+    padding: 1.825rem;
+}
+
+.main_title {
+    text-align: center;
+    font-size: 17.5px;
+    line-height: 1.5;
+    margin-bottom: 68px;
+}
+.main_title p:nth-child(1) {
+    font-weight: 600;
+}
+.main_title p:nth-child(2) {
+    font-weight: 900;
+}
+
+
+.guide {
+    font-size: 13px;
+    margin: 26px 0;
+}
+.guide p {
+    font-weight: 700;
+    line-height: 1.7;
+}
+.guide p span {
+    color: #E86A54;
+    font-weight: 700;
+}
+
+.flex-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-group div:first-child {
+    flex: 2;
+    padding-right: 12px;
+}
+.flex-group div:nth-child(2) {
+    flex: 1;
+}
+
+.login_input {
+    margin-bottom: 1.0416666667rem;
+    position: relative;
+    transition: all 0.2s ease-out;
+}
+.login_input label {
+    color: #afb0b2;
+    font-size: 0.75rem;
+}
+
+.login_input label span {
+    content: " *";
+    font-weight: 600;
+    color: #e86a54;
+}
+
+.login_input > input:focus {
+    outline: 3px solid #006955;
+}
+
+.inputFloating {
+    width: 100%;
+    height: 3.125rem;
+    border: 1px solid #ccc;
+    border-radius: 1.875rem;
+    padding-left: 1.6rem !important;
+}
+
+.login_input select {
+    height: 100%;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    appearance: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* radio type style */
+.radio_part {
+    display: flex;
+    font-size: 16px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+.radio_part > input {
+    width: 20px;
+}
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + span {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #e6e6e6;
+    cursor: pointer;
+    margin-right: 8px;
+}
+input[type="radio"] + span:hover {
+    background: #ccc;
+}
+
+input[type="radio"]:checked + span {
+    width: 20px;
+    height: 20px;
+    background: #006955;
+    position: relative;
+}
+input[type="radio"]:checked + span::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* checkbox type style */
+input[type="checkbox"] {
+    display: none;
+}
+
+
+input[type="checkbox"] + span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #e6e6e6;
+    vertical-align: top;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+input[type="checkbox"] + span:hover {
+    background: #ccc;
+}
+
+input[type="checkbox"]:checked + span {
+    width: 20px;
+    height: 20px;
+    background: #006955;
+    position: relative;
+}
+input[type="checkbox"]:checked + span::after {
+    width: 100%;
+    content: "\f14a";
+    font-family: "Font Awesome 5 Free";
+    font-size: 28px;
+    font-weight: normal;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    left: -3px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.check_part {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 16px 0;
+}
+.check_part li {
+    min-width: 5.2083333333rem;
+    line-height: 1.5;
+}
+.check_part li label {
+    cursor: pointer;
+}
+label {
+    font-size: 0.7916666667rem;
+    font-weight: 700;
+}
+
+.authentication {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.authentication button[type="button"]{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.authentication button[type="button"]:hover {
+    background: #ccc;
+}
+button[type="button"] p {
+    font-size: 12px;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.flex_part {
+    margin-top: 8px;
+    display: flex;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+/* 소제목 라인 */
+.sub_title {
+    height: 24px;
+    font-size: 16px;
+}
+.sub_title h3{
+    width: 80px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    color: #bcb6b0;
+    font-weight: 600;
+}
+.sub_title .line {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #EAEAEB;
+    position: relative;
+    top: -23px;
+    left: 0;
+    z-index: 1;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+/* 아이디 비밀번호 위로 올라가는곳 위치조정 */
+.form-floating > label {
+    padding: 1rem 1.75rem;
+    top: 8px;
+}
+/* 회원가입 버튼 */
+input[type="submit"] {
+    font-size: 0.8333333333rem;
+    font-weight: 700;
+    padding: 0.75rem 0;
+    border-radius: 1.875rem;
+    background: #006955;
+    color: #fff;
+    border: 1px solid #006955;
+}
+/* 회원탈퇴 버튼 */
+.drop_user {
+   margin-top: 20px;
+    font-size: 0.8333333333rem;
+    font-weight: 700;
+    padding: 0.75rem 0;
+    border-radius: 1.875rem;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+/* 푸터 */
+.copyright {
+    color: #666;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1.25rem;
+    font-size: 0.8333333333rem;
+    line-height: 1.35;
+}
+.copyright span {
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+/* 모달창 */
+#modal {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    text-align: center;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 400px;
+}
+.modal-content p {
+    font-size: 13px;
+    font-weight: 900;
+    padding: 35px 20px;
+    line-height: 1.2;
+    color: #333;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+#close-modal{
+    width: 398px;
+    border-radius: 0px;
+    color: #006955;
+    background: #fff;
+    border: none;
+    border-top: 1px solid #d5d5d5;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+}
+
