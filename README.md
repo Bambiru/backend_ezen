@@ -16,6 +16,7 @@
 
 
 #3. 구성
+![KakaoTalk_20230630_161548593](https://github.com/Bambiru/backend_ezen/assets/116716953/4111618a-3473-4113-a13e-59a0b2d850e2)
 
 이 프로젝트는  Java Server Pages(JSP), Servlet, HTML, CSS, 그리고 JavaScript를 활용한 웹 기반 애플리케이션입니다. JSP와 Servlet은 백엔드에서, HTML/CSS와 JavaScript는 프론트엔드에서 각각 활용되어 이 웹 애플리케이션의 구조를 형성하고 있습니다.
 
@@ -26,6 +27,7 @@
 
 
 #4. Work-Flow
+![KakaoTalk_20230630_161543107](https://github.com/Bambiru/backend_ezen/assets/116716953/48f00f8d-bad9-4bb5-a96e-6ae604f48641)
 
 이 프로젝트는 기본적인 회원 관리 시스템과 게시판 기능을 중심으로 구성되어 있습니다. 사용자의 워크플로우는 아래와 같습니다.
 1)   회원가입 :  사용자는 처음으로 시스템에 접근할 때 회원가입 프로세스를 거칩니다. 사용자는 필요한 개인 정보를 입력하고, 이 정보는 데이터베이스에 저장됩니다. 회원 가입이 완료되면 사용자는 자신의 계정으로 로그인할 수 있습니다.
